@@ -1,0 +1,11 @@
+README:
+
+
+train.py: Skeleton training script for training a pytorch model. 
+Needs modification to incorporate validation set/checkpointing/etc. For reference. 
+
+benchmark_quantization.py: Run it to see gains in memory/inference times. 
+It currently initializes a random model, but ideally there should be a load state_dict step for loading in pretrained weights and then evaluating the metrics for the pretrained model and the quantized model. 
+
+
+
